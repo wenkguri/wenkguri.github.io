@@ -1,59 +1,333 @@
-<!DOCTYPE html><html lang="zh-TW"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.6.2" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.6.2" type="image/png" sizes="32x32"><meta property="og:type" content="website">
-<meta property="og:title" content="我的部落格">
-<meta property="og:url" content="https://wenkguri.github.io/index.html">
-<meta property="og:site_name" content="我的部落格">
-<meta property="og:locale" content="zh_TW">
-<meta property="article:author" content="Wen">
-<meta name="twitter:card" content="summary"><title>我的部落格</title><link ref="canonical" href="https://wenkguri.github.io/index.html"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=2.6.2"><script>var Stun = window.Stun || {};
-var CONFIG = {
-  root: '/',
-  algolia: undefined,
-  assistSearch: undefined,
-  fontIcon: {"prompt":{"success":"fas fa-check-circle","info":"fas fa-arrow-circle-right","warning":"fas fa-exclamation-circle","error":"fas fa-times-circle"},"copyBtn":"fas fa-copy"},
-  sidebar: {"offsetTop":"20px","tocMaxDepth":6},
-  header: {"enable":true,"showOnPost":true,"scrollDownIcon":false},
-  postWidget: {"endText":true},
-  nightMode: {"enable":true},
-  back2top: {"enable":true},
-  codeblock: {"style":"default","highlight":"light","wordWrap":false},
-  reward: false,
-  fancybox: false,
-  zoomImage: {"gapAside":"20px"},
-  galleryWaterfall: undefined,
-  lazyload: false,
-  pjax: undefined,
-  externalLink: {"icon":{"enable":true,"name":"fas fa-external-link-alt"}},
-  shortcuts: undefined,
-  prompt: {"copyButton":"Copiar","copySuccess":"Éxito en copia","copyError":"Error en copia"},
-  sourcePath: {"js":"js","css":"css","images":"images"},
-};
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>我的部落格</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes,maximum-scale=5.0,minimum-scale=1.0">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="icon" href="favicon.ico" type="image/favicon">
+		<link rel="stylesheet" href="css/cms-header.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/cms-footer.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/font-awesome/css/all.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	</head>
 
-window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 6.2.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">Inicio</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">Archivos</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title">我的部落格</div><div class="header-banner-info__subtitle">副標題</div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content content-home" id="content"><section class="postlist"><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2022/05/15/hello-world/">Hello World</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">Creado</span><span class="post-meta-item__value">2022-05-15</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">Actualizado</span><span class="post-meta-item__value">2022-05-15</span></span></div></header><div class="post-body"><div class="post-excerpt"><p>Welcome to <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/" >Hexo</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>! This is your very first post. Check <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/docs/" >documentation</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html" >troubleshooting</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> or you can ask me on <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues" >GitHub</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>.</p>
+	<body>
+		<section class="index-banner">
+			<div class="banner-pc">
+				<img src="images/banner/banner01.jpg" alt="">
+			</div>
+			<div class="banner-mobile">
+		        <img src="images/banner/banner-rwd01.jpg"/>
+		    </div>
+			<div class="banner-content">
+				<h2 class="banner-title font-bold font-noto-serif">大標題！</h2>
+				<p class="font-noto-serif">副標題文字</p>
+			</div>
+			<div class="idx-scroll-btn"><img src="images/banner/idx-scroll-btn.png" alt=""></div>
+			<div class="header-space"></div>
+		</section>
 
-        <h2 id="Quick-Start"   >
-          <a href="#Quick-Start" class="heading-link"><i class="fas fa-link"></i></a><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2>
-      
-        <h3 id="Create-a-new-post"   >
-          <a href="#Create-a-new-post" class="heading-link"><i class="fas fa-link"></i></a><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3>
-      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></div></figure>
+		<header>
+			<div class="menu-core">
+				<div class="header-menu-top">
+					<!-- <a href="index.html" class="logo"></a> -->
+					<a href="index.html">Logo</a>
+					<div class="menu-button">
+						<span></span>
+						<span></span>
+						<span></span>
+				    </div>
+				    <div class="menu-bg"></div>
+					<nav class="menu menuBasic">
+						<ul class="menu-main font-oswald font-bold">
+							<li class="drop-down">
+								<a href="###">關於我</a>
+								<!-- <ul class="menu-list">
+									<li><a href="###">次選單</a></li>
+									<li><a href="###">次選單</a></li>
+									<li><a href="###">次選單</a></li>
+								</ul> -->
+							</li>
+							<li><a href="###">文章列表</a></li>
+							<!-- <li class="drop-down">
+								<a href="###">工程個案</a>
+								<ul class="menu-list menu-list-sub">
+									<li class="drop-down-sub">
+										<a href="###">個案介紹</a>
+										<ul class="drop-down-submenu">
+											<li><a href="###">個案名稱</a></li>
+										</ul>
+									</li>
+									<li><a href="###">新案介紹</a></li>
+								</ul>
+							</li>
+							<li class="drop-down">
+								<a href="###">經典業績</a>
+								<ul class="menu-list menu-list-sub">
+									<li><a href="###">2012</a></li>
+									<li><a href="###">2016</a></li>
+									<li class="drop-down-sub">
+										<a href="###">2017</a>
+										<ul class="drop-down-submenu">
+											<li><a href="###">個案名稱</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-down">
+								<a href="###">工程進度</a>
+								<ul class="menu-list">
+									<li><a href="###">登入帳密</a></li>
+								</ul>
+							</li>
+							<li class="drop-down">
+								<a href="###">最新消息</a>
+								<ul class="menu-list">
+									<li><a href="###">產業動態</a></li>
+									<li><a href="###">公司公告</a></li>
+									<li><a href="###">社區活動</a></li>
+								</ul>
+							</li>
+							<li class="drop-down">
+								<a href="###">客服中心</a>
+								<ul class="menu-list">
+									<li><a href="###">客戶諮詢</a></li>
+									<li><a href="###">服務流程</a></li>
+								</ul>
+							</li> -->
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		
+		<main class="main">
+			<div class="idx-container">
+				<section class="idx-block01">
+					<article class="wrap">
+						<div class="left" data-aos="fade-right">
+							<div class="idx-news-pic">
+						        <a href="###"><img src="images/index/index01.jpg" alt=""></a>
+							</div>
+							<!-- <div class="idx-news-info">
+								<div class="date">2021.06.01</div>
+								<div class="title">最新消息標題最新消息標題</div>
+								<div class="news-more"><a href="###">更多</a></div>
+							</div> -->
+						</div>
+						<div class="right">
+							<h2 class="main-title main-title-c" data-aos="fade-left" data-aos-duration="700" data-aos-delay="200">關於我<span>About</span></h2>
+							<!-- <h3 class="intro-title intro-title-c" data-aos="fade-left" data-aos-duration="700" data-aos-delay="200">副標題</h3> -->
+							<p data-aos="fade-left" data-aos-duration="700" data-aos-delay="200">文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介</p>
+							<div class="btn-deco" data-aos="fade-left" data-aos-duration="700" data-aos-delay="200"><a href="###">了解更多</a></div>
+						</div>
+					</article>
+					<div class="idx-pic01"><img src="images/index/index03.png" alt=""></div>
+					<!-- <div class="idx-pic02"><img src="images/index/index04.png" alt=""></div> -->
+				</section>
+			</div>
 
-<p>More info: <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html" >Writing</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+			<!-- <section class="idx-block02">
+				<div class="left">
+					<div class="idx-pic03" data-aos="fade-down-right" data-aos-duration="700" data-aos-delay="200"><img src="images/index/index-au-title.png" alt=""></div>
+					<h1 class="big-title font-medium" data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">關於寶慶</h1>
+					<p data-aos="fade-up" data-aos-duration="700" data-aos-delay="600">由營造團隊從 業主需求會談至設計定案一條龍堅持做最好的方式完成每一件作品，使用專業 Project 時程要徑管理，掌握工期並可與工務專業軟體系統整合，每一塊檯面都代表一個家，營造堅持挑選每一塊大板，場驗、試燒每一階段做到品質監督及把關。</p>
+					<div class="btn-deco au-btn" data-aos="fade-up" data-aos-duration="700" data-aos-delay="600"><a href="###">了解更多</a></div>
+				</div>
+				<div class="idx-au-pic" data-aos="fade-left"><img src="images/index/index05.png" alt=""></div>
+			</section> -->
 
-        <h3 id="Run-server"   >
-          <a href="#Run-server" class="heading-link"><i class="fas fa-link"></i></a><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3>
-      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></div></figure>
+			<!-- <section class="idx-block03">
+				<article class="wrap">
+					<h2 class="main-title" data-aos="fade-up">影音專區<span>Video</span></h2>
+				</article>
+				<div class="idx-video-block" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="200">
+					<div class="idx-video">
+						<div class="idx-video-pic">
+						    <div class="fix-pic">
+						        <figure>
+						        	<img src="images/index/index06.png" alt="">
+						        </figure>
+						    </div>
+						</div>
+						<div class="idx-video-overlay">
+							<div class="idx-video-name">
+								<div><img src="images/index/index08.png" alt=""></div>
+								<div class="video-title font-medium">影音標題</div>
+							</div>
+						</div>
+						<a href="###" class="link"></a>
+					</div>
+					<div class="idx-video">
+						<div class="idx-video-pic">
+							<div class="fix-pic">
+						        <figure>
+						        	<img src="images/index/index07.png" alt="">
+						        </figure>
+						    </div>
+						</div>
+						<div class="idx-video-overlay">
+							<div class="idx-video-name">
+								<div><img src="images/index/index08.png" alt=""></div>
+								<div class="video-title font-medium">影音標題</div>
+							</div>
+						</div>
+						<a href="###" class="link"></a>
+					</div>
+				</div>
+			</section>
+ -->
+			<section class="idx-block04">
+				<article class="wrap">
+					<h2 class="main-title" data-aos="fade-up">文章列表<span>Posts</span></h2>
+					<!-- <h3 class="intro-title" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">副標題</h3> -->
+					<p data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介</p>
+					<div class="owl-pro owl-carousel owl-theme" data-aos="fade-up" data-aos-duration="700" data-aos-delay="600">
+						<div class="item">
+							<div class="idx-pro-block">
+								<div class="idx-pro-pic">
+									<img src="images/index/index09.jpg" alt="">
+								</div>
+								<div class="idx-pro-intro">
+									<div class="idx-pro-name">文章名稱</div>
+									<div class="idx-pro-text">文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介...</div>
+								</div>
+							</div>
+							<a href="###" class="link"></a>
+						</div>
+						<div class="item">
+							<div class="idx-pro-block">
+								<div class="idx-pro-pic">
+									<img src="images/index/index10.jpg" alt="">
+								</div>
+								<div class="idx-pro-intro">
+									<div class="idx-pro-name">文章名稱</div>
+									<div class="idx-pro-text">文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介...</div>
+								</div>
+							</div>
+							<a href="###" class="link"></a>
+						</div>
+						<div class="item">
+							<div class="idx-pro-block">
+								<div class="idx-pro-pic">
+									<img src="images/index/index11.jpg" alt="">
+								</div>
+								<div class="idx-pro-intro">
+									<div class="idx-pro-name">文章名稱</div>
+									<div class="idx-pro-text">文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介...</div>
+								</div>
+							</div>
+							<a href="###" class="link"></a>
+						</div>
+						<div class="item">
+							<div class="idx-pro-block">
+								<div class="idx-pro-pic">
+									<img src="images/index/index10.jpg" alt="">
+								</div>
+								<div class="idx-pro-intro">
+									<div class="idx-pro-name">文章名稱</div>
+									<div class="idx-pro-text">文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介文字簡介...</div>
+								</div>
+							</div>
+							<a href="###" class="link"></a>
+						</div>
+					</div>
+					<div class="btn-deco" data-aos="fade-up" data-aos-duration="700"><a href="###">觀看更多</a></div>
+				</article>
+				<!-- <div class="idx-pic04"><img src="images/index/index12.png" alt=""></div>
+				<div class="idx-pic05"><img src="images/index/index13.png" alt=""></div> -->
+			</section>
+		</main>
 
-<p>More info: <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/docs/server.html" >Server</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+		<footer>
+			<div class="wrap">
+				<div class="footer-top">
+					<div class="footer-logo">
+						<!-- <img src="images/footer-logo.png" alt=""> -->
+						<!-- footer-logo -->
+					</div>
+					<div class="footer-right">
+						<div class="footer-block">
+							<!-- <ul>
+								<li>地址：407 台中市西屯區河南路二段262號11號樓之6</li>
+								<li class="footer-tel">電話：<a href="tel:04-XXXX-XXXX">04-XXXX-XXXX</a></li>
+							</ul>
+							<ul>
+								<li>信箱：<a href="mailto:XXXXXXXX@gmail.com">XXXXXXXX@gmail.com</a></li>
+								<li>營業時間：8:30 - 18:00</li>
+							</ul>
+							<ul class="footer-media">
+								<li class="ft-fb"><a href="###"><i class="fab fa-facebook-square"></i></a></li>
+								<li class="ft-yt"><a href="###"><i class="fab fa-youtube"></i></a></li>
+								<li class="ft-line"><a href="###"><i class="fab fa-line"></i></a></li>
+							</ul> -->
+						</div>
+						<div class="copyright">
+							Copyright © Wen
+						</div>
+					</div>
+				</div>
+				<div id="gotop">
+				    <div>
+				    	<img src="images/top-btn.png" alt="">
+				    </div>
+				</div>
+			</div>
+		</footer>
 
-        <h3 id="Generate-static-files"   >
-          <a href="#Generate-static-files" class="heading-link"><i class="fas fa-link"></i></a><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3>
-      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></div></figure>
+		<!-- jquery -->
+		<script src="js/jquery-2.1.0.min.js"></script>
 
-<p>More info: <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html" >Generating</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+		<link rel="stylesheet" href="js/owlcarousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="js/owlcarousel/assets/owl.theme.default.min.css">
+		<script src="js/owlcarousel/owl.carousel.min.js"></script>
 
-        <h3 id="Deploy-to-remote-sites"   >
-          <a href="#Deploy-to-remote-sites" class="heading-link"><i class="fas fa-link"></i></a><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3>
-      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></div></figure>
+		<link rel="stylesheet" href="js/venobox/venobox.css">
+		<script src="js/venobox/venobox.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			    $('.venobox').venobox();			    
+			});			
+		</script>
 
-<p>More info: <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html" >Deployment</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-</div></div></article></section><nav class="paginator"><div class="paginator-inner"><span class="page-number current">1</span></div></nav></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><section class="sidebar-toc hide"></section><!-- ov = overview--><section class="sidebar-ov"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/icons/stun-logo.svg" alt="avatar"></div><p class="sidebar-ov-author__text">hello world</p></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">1</div><div class="sidebar-ov-state-item__name">Archivo</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="Creative Commons" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2022</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>Wen</span></div><div><span>Potenciado por <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a></span><span> v6.2.0</span><span class="footer__devider">|</span><span>Tema - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.6.2</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="/js/utils.js?v=2.6.2"></script><script src="/js/stun-boot.js?v=2.6.2"></script><script src="/js/scroll.js?v=2.6.2"></script><script src="/js/header.js?v=2.6.2"></script><script src="/js/sidebar.js?v=2.6.2"></script></body></html>
+		<link rel="stylesheet" href="js/responsiveslides/responsiveslides.css">
+		<link rel="stylesheet" href="js/responsiveslides/themes.css">
+		<script src="js/responsiveslides/responsiveslides.min.js"></script>
+
+		<link rel="stylesheet" href="js/tab/easy-responsive-tabs.css">
+		<script src="js/tab/easyResponsiveTabs.js"></script>
+
+		<link rel="stylesheet" href="js/aos/aos.css">
+		<script src="js/aos/aos.js"></script>
+		<script>
+		    AOS.init({
+			    easing: 'ease-in-out-sine',
+			    offset:200,
+			    duration:500,
+			    once: true,
+		    });
+		</script>
+
+		<script src="js/wow/wow.min.js"></script>
+		<script>
+            new WOW().init();
+        </script>
+
+		<script src="js/jsManage.js"></script>
+		<script>
+			$(window).scroll(function() {
+			    if($(this).scrollTop() > $(".header-space").offset().top){
+			        $("header").addClass('shrink');
+			    }else{
+			        $("header").removeClass('shrink');
+			    }
+			});
+		</script>
+	</body>
+</html>
